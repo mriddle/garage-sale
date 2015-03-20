@@ -2,16 +2,15 @@ jQuery ->
   ### copy loaded thumbnails into carousel ###
   $('.row .thumbnail').on('load', ->
   ).each (i) ->
-    if @complete
-      item = $('<div class="item"></div>')
-      itemDiv = $(this).parents('div')
-      title = $(this).parent('a').attr('title')
-      item.attr 'title', title
-      $(itemDiv.html()).appendTo item
-      item.appendTo '.carousel-inner'
-      if i == 0
-        # set first item active
-        item.addClass 'active'
+    item = $('<div class="item"></div>')
+    itemDiv = $(this).parents('div')
+    title = $(this).parent('a').attr('title')
+    item.attr 'title', title
+    $(itemDiv.html()).appendTo item
+    item.appendTo '.carousel-inner'
+    if i == 0
+      # set first item active
+      item.addClass 'active'
     return
 
   ### activate the carousel ###
