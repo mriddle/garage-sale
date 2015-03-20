@@ -5,6 +5,7 @@ Stuff I'm selling before moving back to Australia
 ### Development
 
 ```
-cp .ruby-version.example .ruby-version
 bundle install
+# Copy over all .example files
+find . -name \*.example -type f | sed -E 's/(.*)(.example)$/ \1\2 \1 /' | xargs -t -n2 cp
 ```
