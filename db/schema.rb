@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150320133938) do
+ActiveRecord::Schema.define(version: 20150320192245) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,9 +19,12 @@ ActiveRecord::Schema.define(version: 20150320133938) do
   create_table "items", force: :cascade do |t|
     t.string   "name"
     t.string   "price"
-    t.string   "image"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "primary_image"
+    t.datetime "created_at",                        null: false
+    t.datetime "updated_at",                        null: false
+    t.string   "secondary_image_urls", default: [],              array: true
+    t.string   "description"
+    t.string   "details_link"
   end
 
 end
