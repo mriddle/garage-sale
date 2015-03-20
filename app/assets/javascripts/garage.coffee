@@ -8,7 +8,6 @@ jQuery ->
     item.attr 'title', title
     $(itemDiv.html()).appendTo item
     item.appendTo '.carousel-inner'
-    $(this).parent('a').find('.secondary-images > img.thumbnail').appendTo('.carousel-inner')
     if i == 0
       # set first item active
       item.addClass 'active'
@@ -22,7 +21,11 @@ jQuery ->
 
   $('#modalCarousel').on 'slid.bs.carousel', ->
     $('.modal-title').html $(this).find('.active').attr('title')
+    $(this).find('.active').find('.secondary-images').removeClass('hidden')
     return
+
+  $('#modalCarousel').on 'hide.bs.modal', ->
+    $(this).find('.active').find('.secondary-images').addClass('hidden')
 
   ### when clicking a thumbnail ###
 
@@ -34,4 +37,3 @@ jQuery ->
     $('#modalCarousel').carousel id
     # slide carousel to selected
     return
-
