@@ -1,6 +1,5 @@
 jQuery ->
   ### copy loaded thumbnails into carousel ###
-  console.log('hello')
   $('.row .thumbnail').on('load', ->
   ).each (i) ->
     if @complete
