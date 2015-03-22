@@ -1,5 +1,8 @@
 .container
   .row
+    - if flash[:notice]
+      .notice.alert.alert-success.text-center
+        = flash[:notice]
     %h1.text-center !¡ Garage Sale ¡!
     .row
       - @items.each do |item|

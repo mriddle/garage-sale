@@ -5,8 +5,9 @@
     %b=item.name
     %p=item.description
     %p
-      %a.btn.btn-primary{:href => "#", :role => "button"} #{content_tag(:strong, "$#{item.price}")} Buy
-      %a.btn.btn-default{:href => item.details_link, :role => "button"} Product Details
+      = form_tag charges_path do
+        %script.stripe-button{"data-label" => "$#{item.price} Buy", "data-amount" => "#{item.price}00", "data-description" => item.name, "data-key" => Rails.configuration.stripe[:publishable_key], :src => "https://checkout.stripe.com/checkout.js"}
+        %a.btn.btn-default{:href => item.details_link, :role => "button"} Product Details
   .secondary-images.hidden
     - item.secondary_image_urls.each do |image_url|
       %img.img-responsive{:src => image_url}
