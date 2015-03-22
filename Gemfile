@@ -10,6 +10,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'haml-rails'
 gem 'turbolinks'
+gem 'stripe', git: 'https://github.com/stripe/stripe-ruby'
 
 group :development, :test do
   gem 'byebug'
