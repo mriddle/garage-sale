@@ -6,6 +6,7 @@
     %p=item.description
     %p
       = form_tag charges_path do
+        = hidden_field(:item, :id, value: item.id)
         %script.stripe-button{"data-label" => "$#{item.price} Buy", "data-amount" => "#{item.price}00", "data-description" => item.name, "data-key" => Rails.configuration.stripe[:publishable_key], :src => "https://checkout.stripe.com/checkout.js"}
         %a.btn.btn-default{:href => item.details_link, :role => "button"} Product Details
   .secondary-images.hidden
