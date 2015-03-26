@@ -3,6 +3,9 @@
     - if flash[:notice]
       .notice.alert.alert-success.text-center
         = flash[:notice]
+    - elsif flash[:error]
+      .notice.alert.alert-danger.text-center
+        = flash[:error]
     %h1.text-center !¡ Garage Sale ¡!
     .row
       - @items.each do |item|
