@@ -8,17 +8,6 @@
         = flash[:error]
     %h1.text-center !¡ Garage Sale ¡!
     .row
-      .col-lg-3.col-sm-4.col-xs-6
-        %a{:href => "#", :title => "2007 Kia Spectra" }
-          %img.thumbnail.img-responsive{:src => 'http://i38.photobucket.com/albums/e133/Rukuro/1979604_10152755732589012_1313519237_n.jpg' }
-        .caption
-          %b 2007 Kia Spectra
-          %p $3,500 - 92k miles, 5 speed manual sedan. It's an awesome car, purchased for $4500. Only selling because I am leaving and at a set price to cut to the chase.
-          %p
-            %a.btn.btn-default{:href => 'mailto:mriddle89@gmail.com?Subject=Car', :target => "_top", :role => "button"} Contact
-        .secondary-images.hidden
-          %img.img-responsive{:src => 'http://i38.photobucket.com/albums/e133/Rukuro/1948110_10152755732854012_1114816271_n.jpg'}
-          %img.img-responsive{:src => 'http://i38.photobucket.com/albums/e133/Rukuro/970579_10152755732674012_1055010016_n.jpg'}
       - @items.each do |item|
         = render :partial => 'item', locals: {item: item}
 
