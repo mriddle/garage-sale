@@ -219,6 +219,60 @@ items = [
     secondary_image_urls: [],
     description: 'Lorell Dry-Erase Board, White Coated Styrene, Aluminum Frame,',
     details_link: 'http://www.globalindustrial.com/p/office-school-supply/boards/wall-mounted/dry-erase-board-white-coated-styrene-aluminum-frame-36w-x-24h-55651?infoParam.campaignId=T9F&gclid=Cj0KEQjwi-moBRDL4Omf9d_LndMBEiQAQtFf8xfRe50eh_LO_7IBLw8p6b_PB5CF4s-laqVb4BchZ20aAm958P8HAQ'
+  },
+  {
+    name: 'Chrome "Barvo" backpack',
+    price: '75',
+    primary_image: 'http://www.chromeindustries.com/media/catalog/product/cache/1/thumbnail/370x/9df78eab33525d08d6e5fb8d27136e95/b/r/bravo_blackred_v1.jpg',
+    secondary_image_urls: [
+      'http://www.chromeindustries.com/media/catalog/product/cache/1/thumbnail/370x/9df78eab33525d08d6e5fb8d27136e95/b/r/bravo_blackred_v5.jpg',
+      'http://i38.photobucket.com/albums/e133/Rukuro/IMG_1291.jpg'
+    ],
+    description: 'Expands from a compact 20L commute to a grocery full 40L. Features a welded-waterproof main, integrated padded-laptop sleeve, and cross-compression straps. Guaranteed for life.',
+    details_link: 'http://www.chromeindustries.com/us/en/bags/backpacks/bravo'
+  },
+  {
+    name: 'USB keyboard',
+    price: '2',
+    primary_image: 'http://i38.photobucket.com/albums/e133/Rukuro/IMG_1295.jpg',
+    secondary_image_urls: [],
+    description: 'Full-size keyboard with Numeric keypad',
+    details_link: '#'
+  },
+  {
+    name: 'Asus Wireless Gigabit Router',
+    price: '150',
+    primary_image: 'http://pisces.bbystatic.com/image2/BestBuy_US/images/products/7230/7230042_ra.jpg;canvasHeight=500;canvasWidth=500',
+    secondary_image_urls: [
+      'http://i38.photobucket.com/albums/e133/Rukuro/IMG_1289.jpg',
+      'http://pisces.bbystatic.com/image2/BestBuy_US/images/products/7230/7230042_ba.jpg;canvasHeight=500;canvasWidth=500'
+    ],
+    description: '802.11ac, Gigabit lan. Comes with receipt and manufactures warranty',
+    details_link: 'http://www.bestbuy.com/site/asus-extreme-wireless-ac2400-dual-band-gigabit-router-black/7230042.p?id=1219258061855&skuId=7230042'
+  },
+  {
+    name: 'Basketball',
+    price: '5',
+    primary_image: 'http://i38.photobucket.com/albums/e133/Rukuro/IMG_1294.jpg',
+    secondary_image_urls: [],
+    description: 'It bounces.',
+    details_link: '#'
+  },
+  {
+    name: 'American Football',
+    price: '5',
+    primary_image: 'http://i38.photobucket.com/albums/e133/Rukuro/IMG_1293.jpg',
+    secondary_image_urls: [],
+    description: 'When thrown, soars.',
+    details_link: '#'
+  },
+  {
+    name: 'Football ?',
+    price: '5',
+    primary_image: 'http://i38.photobucket.com/albums/e133/Rukuro/IMG_1292.jpg',
+    secondary_image_urls: [],
+    description: 'Frustrated? Kick this.',
+    details_link: '#'
   }
 ]
 
