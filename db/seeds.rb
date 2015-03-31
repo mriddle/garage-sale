@@ -9,7 +9,7 @@
 items = [
   {
     name: 'ASUS 27" Monitor',
-    price: '190',
+    price: '150',
     primary_image: 'http://i38.photobucket.com/albums/e133/Rukuro/IMG_0041_2.jpg',
     secondary_image_urls: [
       "http://i38.photobucket.com/albums/e133/Rukuro/IMG_0040_2.jpg",
@@ -71,7 +71,7 @@ items = [
   },
   {
     name: 'Storage Ottoman Bench',
-    price: '70',
+    price: '50',
     primary_image: 'http://i38.photobucket.com/albums/e133/Rukuro/IMG_0022_2.jpg',
     secondary_image_urls: [
       'http://i38.photobucket.com/albums/e133/Rukuro/IMG_0021_2.jpg',
@@ -99,7 +99,7 @@ items = [
   },
   {
     name: 'Desk',
-    price: '50',
+    price: '40',
     primary_image: "http://i38.photobucket.com/albums/e133/Rukuro/IMG_0035_2.jpg",
     secondary_image_urls: [
       "http://i38.photobucket.com/albums/e133/Rukuro/IMG_0038_2.jpg",
