@@ -211,6 +211,14 @@ items = [
     secondary_image_urls: [],
     description: 'Rocketfish RF-HTS125 4-outlet surge protector',
     details_link: 'http://www.bestbuy.com/site/rocketfish-4-outlet-surge-protector/4680427.p?id=1218511828497&skuId=4680427'
+  },
+  {
+    name: 'Whiteboard 36"Wx24"H',
+    price: '12',
+    primary_image: 'http://i38.photobucket.com/albums/e133/Rukuro/IMG_0037_2_1.jpg',
+    secondary_image_urls: [],
+    description: 'Lorell Dry-Erase Board, White Coated Styrene, Aluminum Frame,',
+    details_link: 'http://www.globalindustrial.com/p/office-school-supply/boards/wall-mounted/dry-erase-board-white-coated-styrene-aluminum-frame-36w-x-24h-55651?infoParam.campaignId=T9F&gclid=Cj0KEQjwi-moBRDL4Omf9d_LndMBEiQAQtFf8xfRe50eh_LO_7IBLw8p6b_PB5CF4s-laqVb4BchZ20aAm958P8HAQ'
   }
 ]
 
