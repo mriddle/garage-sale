@@ -170,6 +170,47 @@ items = [
     ],
     description: 'Quiet & tidy media server, currently running Ubuntu with Plex Server - stream to Plex app on phones,tables,computers or chromecast',
     details_link: 'http://www.newegg.com/Product/Product.aspx?Item=N82E16883218022'
+  },
+  {
+    name: 'TV Stand',
+    price: '180',
+    primary_image: 'http://pisces.bbystatic.com/image2/BestBuy_US/images/products/2405/2405166_ra.jpg;canvasHeight=500;canvasWidth=500',
+    secondary_image_urls: [
+      "http://pisces.bbystatic.com/image2/BestBuy_US/images/products/2405/2405166cv6a.jpg;canvasHeight=500;canvasWidth=500",
+      "http://pisces.bbystatic.com/image2/BestBuy_US/images/products/2405/2405166cv8a.jpg;canvasHeight=500;canvasWidth=500",
+      "http://pisces.bbystatic.com/image2/BestBuy_US/images/products/2405/2405166cv11a.jpg;canvasHeight=500;canvasWidth=500"
+    ],
+    description: 'Black stand for Flat-Panel TVs Up to 56 inches. 45 degree swivel.',
+    details_link: 'http://www.bestbuy.com/site/whalen-furniture-3-in-1-tv-stand-for-flat-panel-tvs-up-to-56-black/2405166.p?id=1218346770491&skuId=2405166'
+  },
+  {
+    name: '2.1-Channel Soundbar with Wireless Subwoofer',
+    price: '199',
+    primary_image: 'http://pisces.bbystatic.com/image2/BestBuy_US/images/mp/products/1308/1308088/1308088752/1308088752_500x500_sa.jpg;canvasHeight=500;canvasWidth=500',
+    secondary_image_urls: [
+      "http://ecx.images-amazon.com/images/I/81FjFxvt3TL._SL1500_.jpg",
+      "http://technologyx.com/wp-content/uploads/2013/06/Samsung-bluetooth-audio-bar-HW-F550-13.jpg"
+    ],
+    description: 'Black Samsung sound system.',
+    details_link: 'http://www.bestbuy.com/site/samsung-2-1-channel-soundbar-with-wireless-subwoofer/1308088752.p?id=mp1308088752&skuId=1308088752'
+  },
+  {
+    name: 'Samsung 55" LED TV',
+    price: '600',
+    primary_image: 'http://www.samsung.com/us/system/consumer/product/un/55/fh/un55fh6003fxza/UN55FH6003_4_5.jpg',
+    secondary_image_urls: [
+      "http://www.samsung.com/us/system/consumer/product/un/55/fh/un55fh6003fxza/UN55FH6003_3_2.jpg"
+    ],
+    description: 'UN55FH6003FXZA. HD, not a SmartTV - That is what Chromecast is for :)',
+    details_link: 'http://www.samsung.com/us/video/tvs/UN55FH6003FXZA'
+  },
+  {
+    name: 'Surge protector',
+    price: '19',
+    primary_image: 'http://pisces.bbystatic.com/image2/BestBuy_US/images/products/4680/4680427_ra.jpg;canvasHeight=500;canvasWidth=500',
+    secondary_image_urls: [],
+    description: 'Rocketfish RF-HTS125 4-outlet surge protector',
+    details_link: 'http://www.bestbuy.com/site/rocketfish-4-outlet-surge-protector/4680427.p?id=1218511828497&skuId=4680427'
   }
 ]
 
